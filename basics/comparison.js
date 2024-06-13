@@ -8,3 +8,7 @@ console.log(undefined==0);  //false
 //strict check  ===
 console.log("2"==2);  //true
 console.log("2"===2);  //false
+
+const Id=Symbol("567");
+const anotherId=Symbol("567");
+console.log(Id===anotherId);
