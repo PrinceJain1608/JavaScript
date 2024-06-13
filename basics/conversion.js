@@ -10,3 +10,14 @@ console.log(b);   //NaN   not a number
 let c=null;
 console.log(typeof(c));   //object
 console.log(Number(c));    //0
+
+
+console.log("1"+2);   //12
+console.log("1"+2+2);  //122
+console.log(1+"2");  //12
+console.log(1+"2"+"2");   //122
+console.log(1+2+"2");  //32
+
+console.log(+true);  //1
+console.log(+"");  //0
+
